@@ -39,4 +39,14 @@ public class Main {
         }
     }
 
+
+    public static class Division implements Operations{
+
+
+        @Override
+        public int calc(int a, int b) {
+            return a/b;
+
+        }
+    }
 }
